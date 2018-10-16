@@ -1,0 +1,19 @@
+<html>
+  <style>
+  </style>
+  <body>
+    <div>
+      <h2>我是点击页面</h2>
+      <input id="button" type="button" value="+" onclick="myClick()">
+      <span id="val"></span>
+    </div>
+  </body>
+  <script>
+    var button =  document.getElementById("button");
+    var val = document.getElementById("val");
+
+    function myClick() {
+      val.innerHTML +=1; 
+    }
+  </script>
+</html>
